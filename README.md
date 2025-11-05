@@ -24,7 +24,7 @@ This repository contains the **frontend** source code of the project.
 - JWT Authentication
 - MySQL Database
 
-  [View Backend Repository](https://github.com/vuutruongnhatthanhhh/tjzenn-ecommerce-nodejs)
+  [View Backend Repository](https://github.com/vuutruongnhatthanhhh/ecommerce-nodejs)
 
 **Cloud & Deployment**
 
