@@ -1,0 +1,18 @@
+// tsconfig.test.json
+{
+  "extends": "./tsconfig.app.json",
+  "compilerOptions": {
+    "target": "ES2019",
+    "module": "commonjs",
+    "jsx": "react-jsx",
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "moduleResolution": "node",
+    "baseUrl": ".",
+    "paths": { "@/*": ["src/*"] },
+    "types": ["jest", "node", "@testing-library/jest-dom"],
+    "skipLibCheck": true,
+    "verbatimModuleSyntax": false
+  },
+  "include": ["src", "setupTests.ts"]
+}
